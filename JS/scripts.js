@@ -1,11 +1,13 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#walrus-showing").slideToggle();
-    $("#walrus-hidden").slideToggle();
-  });
-  $(".clickable2").click(function() {
-    $("#dog-hidden").slideToggle();
-    $("#dog-showing").slideToggle();
+  $("h1").click(function() {
+    alert("This is a heading.");
   });
 
+  $("p").click(function() {
+    alert("This is a paragraph.");
+  });
+
+  $("img").click(function() {
+    alert("This is an image.");
+  });
 });

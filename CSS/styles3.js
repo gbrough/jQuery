@@ -1,6 +1,7 @@
-#walrus-showing {
+#castles-showing {
   display: none;
 }
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
