@@ -1,6 +1,10 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("#castles-showing").slideToggle();
-    $("#castles-hidden").slideToggle();
+    $("#cast-showing").toggle();
+    $("#cast-hidden").toggle();
+  });
+  $(".clickable2").click(function() {
+    $("#beach-showing").toggle();
+    $("#beach-hidden").toggle();
   });
 });
